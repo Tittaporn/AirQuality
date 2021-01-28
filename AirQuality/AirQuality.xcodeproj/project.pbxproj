@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36C3705F25C329BE00CF94BD /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3705E25C329BE00CF94BD /* AirQuality.swift */; };
+		36C3706425C3348D00CF94BD /* AirQualityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C3706325C3348D00CF94BD /* AirQualityController.swift */; };
 		970B2FC1258A8B6B00B0EBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B2FC0258A8B6B00B0EBCA /* AppDelegate.swift */; };
 		970B2FC3258A8B6B00B0EBCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B2FC2258A8B6B00B0EBCA /* SceneDelegate.swift */; };
 		970B2FC8258A8B6B00B0EBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FC6258A8B6B00B0EBCA /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36C3705E25C329BE00CF94BD /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
+		36C3706325C3348D00CF94BD /* AirQualityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityController.swift; sourceTree = "<group>"; };
 		970B2FBD258A8B6B00B0EBCA /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		970B2FC0258A8B6B00B0EBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		970B2FC2258A8B6B00B0EBCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36C3705D25C329A600CF94BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36C3705E25C329BE00CF94BD /* AirQuality.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36C3706225C3345500CF94BD /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				36C3706325C3348D00CF94BD /* AirQualityController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
 		970B2FB4258A8B6B00B0EBCA = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +84,7 @@
 		970B2FBF258A8B6B00B0EBCA /* AirQuality */ = {
 			isa = PBXGroup;
 			children = (
+				36C3705D25C329A600CF94BD /* Models */,
 				970B2FD9258A8BBC00B0EBCA /* Controllers */,
 				970B2FD7258A8BA200B0EBCA /* Views */,
 				97C914DD25A4E6DB00AA09DD /* Helpers and Extension */,
@@ -103,6 +124,7 @@
 		970B2FD9258A8BBC00B0EBCA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				36C3706225C3345500CF94BD /* Model Controllers */,
 				970B2FDA258A8BC100B0EBCA /* ViewControllers */,
 			);
 			path = Controllers;
@@ -197,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C3705F25C329BE00CF94BD /* AirQuality.swift in Sources */,
 				97C914E325A4F16200AA09DD /* CountryListTableViewController.swift in Sources */,
+				36C3706425C3348D00CF94BD /* AirQualityController.swift in Sources */,
 				970B2FC1258A8B6B00B0EBCA /* AppDelegate.swift in Sources */,
 				97C914EA25A5073E00AA09DD /* CitiesListTableViewController.swift in Sources */,
 				97C914E725A4FEA200AA09DD /* StatesListTableViewController.swift in Sources */,
